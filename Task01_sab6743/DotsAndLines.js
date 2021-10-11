@@ -112,6 +112,7 @@ function initVertexBuffers(gl) {
 //==============================================================================
 // first, create an array with all our vertex attribute values:
   var vertices = new Float32Array([
+    //added and rearranged vertecies such that the entire cube is traced 
     0.0,  0.0,  0.0, 1,
     0.0,  0.0,  1.0, 1,
     1.0,  0.0,  1.0, 1,
