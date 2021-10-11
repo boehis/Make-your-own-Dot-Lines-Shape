@@ -102,8 +102,9 @@ function initVertexBuffers(gl) {
      0.5, -0.5, 0.0, 1.0,	// 
      0.2,  0.0, 0.0, 1.0, 	// new point!  (note we need a trailing comma here)
      
+     0.2,  0.3, 0.0, 1.0, 	
   ]);
-  var n = 6; // The number of vertices
+  var n = vertices.length/4; // The number of vertices
 
   // Then in the Graphics hardware, create a vertex buffer object (VBO)
   var vertexBuffer = gl.createBuffer();	// get it's 'handle'
